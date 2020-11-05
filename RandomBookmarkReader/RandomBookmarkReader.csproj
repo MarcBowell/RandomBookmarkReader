@@ -51,11 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookmarkContainerClasses\BookmarkFolder.cs" />
-    <Compile Include="BookmarkManager\BookmarkManager.cs" />
+    <Compile Include="BookmarkManager\BookmarkManagerClass.cs" />
     <Compile Include="BookmarkContainerClasses\BookmarkUrl.cs" />
     <Compile Include="BookmarkContainerClasses\BrowserBookmarks.cs" />
     <Compile Include="BookmarkReaders\ChromeBookmarkReader.cs" />
     <Compile Include="BookmarkReaders\IBookmarkReader.cs" />
+    <Compile Include="ExtensionMethods\CollectionExtensionMethods.cs" />
     <Compile Include="GeneralClasses\ProcessResult.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

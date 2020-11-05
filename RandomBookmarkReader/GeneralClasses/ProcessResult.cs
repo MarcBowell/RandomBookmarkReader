@@ -20,5 +20,15 @@
         /// Result of running the process
         /// </summary>
         public T Result { get; set; }
+
+        /// <summary>
+        /// Add an error to the process result
+        /// </summary>
+        /// <param name="errorMessage"></param>
+        public void AddError(string errorMessage)
+        {
+            Success = false;
+            ErrorMessage = errorMessage;            
+        }
     }
 }
